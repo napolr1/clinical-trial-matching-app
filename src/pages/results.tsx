@@ -1,35 +1,48 @@
-import { ReactElement, useMemo, useReducer, useState, SyntheticEvent } from 'react';
-import { QueryClient, useQuery } from 'react-query';
-import { dehydrate } from 'react-query/hydration';
-import { GetServerSideProps } from 'next';
-import Head from 'next/head';
-import smart from 'fhirclient';
-import type Client from 'fhirclient/lib/Client';
+import Header from '@/components/Header';
+import { Results, ResultsHeader, SaveStudyHandler, StudyDetailProps } from '@/components/Results';
+import Sidebar from '@/components/Sidebar';
+import { ensureArray } from '@/components/Sidebar/Sidebar';
+import { clinicalTrialSearchQuery } from '@/queries';
+import clinicalTrialDistanceQuery from '@/queries/clinicalTrialDistanceQuery';
+import clinicalTrialFilterQuery from '@/queries/clinicalTrialFilterQuery';
+import clinicalTrialPaginationQuery from '@/queries/clinicalTrialPaginationQuery';
+import { FilterOptions } from '@/queries/clinicalTrialSearchQuery';
+import { exportSpreadsheetData, unpackStudies } from '@/utils/exportData';
+import { convertFhirPatient, convertFhirUser, Patient, User } from '@/utils/fhirConversionUtils';
+import { getSavedStudies, savedStudiesReducer, uninitializedState } from '@/utils/resultsStateUtils';
+import styled from '@emotion/styled';
 import {
+  Alert,
+  CircularProgress,
   Drawer,
   Paper,
+  Snackbar,
+  SnackbarCloseReason,
   Stack,
   Theme,
-  useTheme,
-  useMediaQuery,
-  CircularProgress,
-  Snackbar,
-  Alert,
-  SnackbarCloseReason,
   Typography,
+  useMediaQuery,
+  useTheme,
 } from '@mui/material';
-import styled from '@emotion/styled';
-import Header from '@/components/Header';
-import Sidebar from '@/components/Sidebar';
-import { Results, ResultsHeader, SaveStudyHandler, StudyDetailProps } from '@/components/Results';
-import { FilterParameters, FullSearchParameters, SearchParameters, SortingParameters } from 'types/search-types';
-import { clinicalTrialSearchQuery } from '@/queries';
-import { convertFhirPatient, convertFhirUser, Patient, User } from '@/utils/fhirConversionUtils';
-import { uninitializedState, savedStudiesReducer, getSavedStudies } from '@/utils/resultsStateUtils';
-import { exportSpreadsheetData, unpackStudies } from '@/utils/exportData';
-import clinicalTrialFilterQuery from '@/queries/clinicalTrialFilterQuery';
-import { FilterOptions } from '@/queries/clinicalTrialSearchQuery';
-import { ensureArray } from '@/components/Sidebar/Sidebar';
+import smart from 'fhirclient';
+import type Client from 'fhirclient/lib/Client';
+import { GetServerSideProps } from 'next';
+import getConfig from 'next/config';
+import Head from 'next/head';
+import { MutableRefObject, ReactElement, SyntheticEvent, useMemo, useReducer, useRef, useState } from 'react';
+import { QueryClient, useQuery } from 'react-query';
+import { dehydrate } from 'react-query/hydration';
+import {
+  FilterParameters,
+  FullSearchParameters,
+  PaginationParameters,
+  SearchParameters,
+  SortingParameters,
+} from 'types/search-types';
+
+const {
+  publicRuntimeConfig: { sendLocationData },
+} = getConfig();
 
 type ResultsPageProps = {
   patient: Patient;
@@ -89,11 +102,9 @@ const getParameters = <T extends Partial<FullSearchParameters>>(keys: (keyof T)[
   };
 };
 
-// Don't want to trigger search query if only filter parameters change
+// Don't want to trigger search query if only distance-filter parameters change
 const getSearchParams = getParameters<SearchParameters>([
   'matchingServices',
-  'zipcode',
-  'travelDistance',
   'age',
   'cancerType',
   'cancerSubtype',
@@ -101,7 +112,12 @@ const getSearchParams = getParameters<SearchParameters>([
   'stage',
   'ecogScore',
   'karnofskyScore',
+  // If we're not sending location data, we get all trials back
+  ...(sendLocationData ? ['zipcode' as keyof SearchParameters, 'travelDistance' as keyof SearchParameters] : []),
 ]);
+
+// Don't want to trigger distance-filter query if only search parameters change
+const getDistanceParams = getParameters<SearchParameters>(['zipcode', 'travelDistance']);
 
 // Don't want to trigger filter query if only pagination parameters change
 const getFilterParams = getParameters<FilterParameters & SortingParameters>([
@@ -111,6 +127,8 @@ const getFilterParams = getParameters<FilterParameters & SortingParameters>([
   'sortingOption',
   'savedStudies',
 ]);
+
+const getPaginationParams = getParameters<PaginationParameters>(['page', 'pageSize']);
 
 const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactElement => {
   const [open, setOpen] = useState(true);
@@ -124,16 +142,32 @@ const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactEl
     }
   );
 
-  const { isIdle, isLoading, data } = useQuery(
-    ['clinical-trials', searchData, getFilterParams(searchParams)], // the params is causing the filter query to not rerun!
-    () => clinicalTrialFilterQuery(searchData, searchParams),
+  const { data: distanceFilteredData } = useQuery(
+    ['clinical-trials', searchData, getDistanceParams(searchParams)],
+    () => clinicalTrialDistanceQuery(searchData, searchParams),
     {
       enabled: !!searchData && typeof window !== 'undefined',
       refetchOnMount: false,
     }
   );
 
-  // TODO: pagination query
+  const { data: filteredData } = useQuery(
+    ['clinical-trials', distanceFilteredData, getFilterParams(searchParams)],
+    () => clinicalTrialFilterQuery(distanceFilteredData, searchParams),
+    {
+      enabled: !!distanceFilteredData && typeof window !== 'undefined',
+      refetchOnMount: false,
+    }
+  );
+
+  const { isIdle, isLoading, data } = useQuery(
+    ['clinical-trials', filteredData, getPaginationParams(searchParams)],
+    () => clinicalTrialPaginationQuery(filteredData, searchParams),
+    {
+      enabled: !!filteredData && typeof window !== 'undefined',
+      refetchOnMount: false,
+    }
+  );
 
   const [mobileOpen, setMobileOpen] = useState(false);
   const [alertOpen, setAlertOpen] = useState(true);
@@ -144,24 +178,23 @@ const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactEl
   const drawerWidth = getDrawerWidth(isSmallScreen);
 
   // Here, we initialize the state based on the asynchronous data coming back. When the promise hasn't resolved yet, the list of studies is empty.
-  const entries = useMemo(() => data?.results as StudyDetailProps[], [data]);
   const filterOptions = useMemo(() => data?.filterOptions as FilterOptions, [data]);
   const [state, dispatch] = useReducer(
     savedStudiesReducer,
     (searchParams.savedStudies && new Set<string>(ensureArray(searchParams.savedStudies))) || uninitializedState
   );
 
-  const alreadyHasSavedStudies = state.size !== 0;
+  const hasSavedStudies = state.size !== 0;
   const handleClearSavedStudies = () => dispatch({ type: 'setInitialState' });
-  const handleExportSavedStudies = (): void => {
-    const savedStudies = getSavedStudies(entries, state);
-    const data: Record<string, string>[] = unpackStudies(savedStudies);
-    exportSpreadsheetData(data, 'clinicalTrials');
+  const handleExportStudies = (): void => {
+    const savedStudies = getSavedStudies(data.results, state);
+    const spreadsheetData: Record<string, string>[] = unpackStudies(savedStudies);
+    exportSpreadsheetData(spreadsheetData, 'clinicalTrials');
   };
   const handleSaveStudy =
     (entry: StudyDetailProps): SaveStudyHandler =>
     event => {
-      // When the save button is in the accordion actions, we don't want it to expand/collapse the accordion.
+      // We don't want to expand/collapse the accordion when triggering the save button.
       event.stopPropagation();
       dispatch({ type: 'toggleSave', value: entry });
     };
@@ -172,6 +205,8 @@ const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactEl
     }
     setAlertOpen(false);
   };
+
+  const scrollableParent: MutableRefObject<HTMLElement> = useRef<HTMLElement>(null);
 
   return (
     <>
@@ -220,24 +255,23 @@ const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactEl
             />
           </Drawer>
 
-          <SlidingStack alignItems="stretch" flexGrow={1} open={open} shrink={isSmallScreen} sx={{ overflowY: 'auto' }}>
+          <SlidingStack
+            ref={scrollableParent}
+            alignItems="stretch"
+            flexGrow={1}
+            open={open}
+            shrink={isSmallScreen}
+            sx={{ overflowY: 'auto' }}
+          >
             <ResultsHeader
               isOpen={open}
-              toggleDrawer={toggleDrawer}
-              toggleMobileDrawer={toggleMobileDrawer}
-              alreadyHasSavedStudies={alreadyHasSavedStudies}
-              handleClearSavedStudies={handleClearSavedStudies}
-              handleExportStudies={handleExportSavedStudies}
+              {...{ toggleMobileDrawer, hasSavedStudies, handleClearSavedStudies, handleExportStudies, toggleDrawer }}
               showExport={!isIdle && !isLoading}
             />
             <MainContent
               elevation={0}
               sx={[
-                {
-                  flex: '1 1 auto',
-                  overflowY: 'auto',
-                  p: 3,
-                },
+                { flex: '1 1 auto', overflowY: 'auto', p: 3 },
                 (isIdle || isLoading) && { display: 'flex', justifyContent: 'center', alignItems: 'center' },
               ]}
               square
@@ -250,7 +284,7 @@ const ResultsPage = ({ patient, user, searchParams }: ResultsPageProps): ReactEl
                   </Typography>
                 </Stack>
               )}
-              {!isIdle && !isLoading && <Results entries={entries} state={state} handleSaveStudy={handleSaveStudy} />}
+              {!isIdle && !isLoading && <Results response={data} {...{ state, handleSaveStudy, scrollableParent }} />}
               {!isIdle && !isLoading && data?.errors?.length > 0 && (
                 <Snackbar
                   open={alertOpen}

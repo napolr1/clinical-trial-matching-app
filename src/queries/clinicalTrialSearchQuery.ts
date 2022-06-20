@@ -19,6 +19,7 @@ export type ResultsResponse = {
   results?: StudyDetailProps[];
   errors?: ErrorResponse[];
   filterOptions?: FilterOptions;
+  total?: number;
 };
 
 export type ErrorResponse = {
@@ -26,6 +27,14 @@ export type ErrorResponse = {
   response: string;
   serviceName: string;
   error?: any; // eslint-disable-line @typescript-eslint/no-explicit-any
+};
+
+export type Service = {
+  name: string;
+  label: string;
+  url: string;
+  searchRoute: string;
+  defaultValue?: boolean;
 };
 
 const clinicalTrialSearchQuery = async (

@@ -1,17 +1,17 @@
-import { ReactElement } from 'react';
-import { useRouter } from 'next/router';
-import { FilterAlt as FilterIcon, Search as SearchIcon } from '@mui/icons-material';
-
-import SidebarAccordion from './SidebarAccordion';
+import FilterForm, { FilterFormValuesType } from '@/components/FilterForm';
 import PatientCard from '@/components/PatientCard';
 import SearchForm from '@/components/SearchForm';
-import { NamedSNOMEDCode, Patient, parseNamedSNOMEDCode } from '@/utils/fhirConversionUtils';
-import FilterForm, { FilterFormValuesType } from '@/components/FilterForm';
-import { formDataToFilterQuery } from '../FilterForm/FilterForm';
-import { formDataToSearchQuery } from '../SearchForm/SearchForm';
-import { SavedStudiesState } from '../Results';
-import { FullSearchParameters } from 'types/search-types';
+import { DEFAULT_PAGE } from '@/queries/clinicalTrialPaginationQuery';
 import { FilterOptions } from '@/queries/clinicalTrialSearchQuery';
+import { NamedSNOMEDCode, parseNamedSNOMEDCode, Patient } from '@/utils/fhirConversionUtils';
+import { FilterAlt as FilterIcon, Search as SearchIcon } from '@mui/icons-material';
+import { useRouter } from 'next/router';
+import { ReactElement, SyntheticEvent, useState } from 'react';
+import { FullSearchParameters } from 'types/search-types';
+import { formDataToFilterQuery } from '../FilterForm/FilterForm';
+import { SavedStudiesState } from '../Results';
+import { formDataToSearchQuery } from '../SearchForm/SearchForm';
+import SidebarAccordion from './SidebarAccordion';
 
 type SidebarProps = {
   patient: Patient;
@@ -19,6 +19,12 @@ type SidebarProps = {
   savedStudies: SavedStudiesState;
   filterOptions: FilterOptions;
 };
+
+enum SidebarExpand {
+  Neither = 0,
+  Search,
+  Filter,
+}
 
 export const ensureArray = (value?: string | string[]): string[] => {
   if (!value) return [];
@@ -37,14 +43,15 @@ const ensureNamedSNOMEDCode = (value?: string | string[]): NamedSNOMEDCode => {
 
 const Sidebar = ({ patient, disabled, savedStudies, filterOptions }: SidebarProps): ReactElement => {
   const { query } = useRouter();
+  const [expanded, setExpanded] = useState<SidebarExpand>(SidebarExpand.Filter);
 
-  const matchingServices = query.matchingServices || [];
+  const handleChange = (panel: SidebarExpand) => (_event: SyntheticEvent, isExpanded: boolean) => {
+    setExpanded(isExpanded ? panel : SidebarExpand.Neither);
+  };
+
+  const matchingServices = ensureArray(query.matchingServices);
   const defaultSearchValues = {
-    matchingServices: {
-      breastCancerTrials: matchingServices.includes('breastCancerTrials'),
-      trialjectory: matchingServices.includes('trialjectory'),
-      trialscope: matchingServices.includes('trialscope'),
-    },
+    matchingServices: Object.fromEntries(matchingServices.map(key => [key, true])),
     zipcode: (query.zipcode as string) || '',
     travelDistance: (query.travelDistance as string) || '',
     age: (query.age as string) || '',
@@ -88,17 +95,31 @@ const Sidebar = ({ patient, disabled, savedStudies, filterOptions }: SidebarProp
     ...formDataToSearchQuery(defaultSearchValues),
     ...formDataToFilterQuery(defaultFilterValues),
     savedStudies: Array.from(savedStudies),
+    page: DEFAULT_PAGE,
+    pageSize: query.pageSize as string,
   };
 
   return (
     <>
       <PatientCard patient={patient} />
 
-      <SidebarAccordion icon={<SearchIcon fontSize="large" />} title="New Search" disabled={disabled}>
-        <SearchForm fullWidth defaultValues={defaultSearchValues} fullSearchParams={fullSearchParams} />
+      <SidebarAccordion
+        icon={<SearchIcon fontSize="large" />}
+        title="New Search"
+        disabled={disabled}
+        expanded={expanded === SidebarExpand.Search}
+        onChange={handleChange(SidebarExpand.Search)}
+      >
+        <SearchForm fullWidth defaultValues={defaultSearchValues} />
       </SidebarAccordion>
 
-      <SidebarAccordion defaultExpanded icon={<FilterIcon fontSize="large" />} title="Filters" disabled={disabled}>
+      <SidebarAccordion
+        icon={<FilterIcon fontSize="large" />}
+        title="Filters"
+        disabled={disabled}
+        expanded={expanded === SidebarExpand.Filter}
+        onChange={handleChange(SidebarExpand.Filter)}
+      >
         <FilterForm
           fullWidth
           defaultValues={defaultFilterValues}

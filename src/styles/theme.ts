@@ -117,7 +117,7 @@ const theme = createTheme({
           props: { variant: 'head' },
           style: {
             textTransform: 'uppercase',
-            [breakpoints.between('xs', 'xl')]: { textAlign: 'left' },
+            [breakpoints.between('xs', 'xl')]: { textAlign: 'left', zIndex: 'auto' },
             [breakpoints.up('xl')]: { textAlign: 'right', flex: 1 },
             verticalAlign: 'top',
           },
@@ -130,6 +130,30 @@ const theme = createTheme({
           },
         },
       ],
+    },
+    MuiTablePagination: {
+      styleOverrides: {
+        spacer: { flex: 'none' },
+        toolbar: {
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+          [breakpoints.between('xs', 'lg')]: { justifyContent: 'center', padding: 0 },
+          [breakpoints.up('lg')]: { justifyContent: 'flex-end' },
+        },
+        selectLabel: {
+          display: 'flex',
+          [breakpoints.between('xs', 'md')]: { marginLeft: 0 },
+          [breakpoints.up('md')]: { marginLeft: '36px' },
+        },
+        input: { display: 'flex' },
+        displayedRows: {
+          display: 'flex',
+          [breakpoints.between('xs', 'md')]: { marginRight: 0 },
+          [breakpoints.up('md')]: { marginRight: '36px' },
+        },
+        actions: { display: 'flex' },
+      },
     },
     MuiTableRow: {
       styleOverrides: {
