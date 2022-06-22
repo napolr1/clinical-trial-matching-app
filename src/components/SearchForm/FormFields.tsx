@@ -1,8 +1,8 @@
-import { ReactElement, useMemo, useState } from 'react';
+import { ReactElement, useMemo, useState, useContext } from 'react';
 import { ControllerRenderProps } from 'react-hook-form';
 import { useQuery } from 'react-query';
 import { Autocomplete, Checkbox, Chip, TextField, Typography } from '@mui/material';
-
+import AppContext from '@/AppContext';
 import { SearchFormValuesType } from './types';
 import { fetchCancerSubtypeCodesQuery, fetchCancerTypeCodesQuery } from '@/queries';
 
@@ -110,11 +110,14 @@ export const CancerSubtypeAutocomplete = ({
 }: {
   field: ControllerRenderProps<SearchFormValuesType, 'cancerSubtype'>;
 }): ReactElement => {
+  const context = useContext(AppContext);
+  console.log(context)
   const { data, isLoading } = useQuery(['cancer-subtype-codes'], () => fetchCancerSubtypeCodesQuery(), {
     enabled: typeof window !== 'undefined',
   });
+
   const [initialValue] = useState(field.value);
-  const options = useMemo(() => [initialValue, ...(data || [])].filter(Boolean), [initialValue, data]);
+  const options = context.state.cancerTypeData !== null ? data[context?.state?.cancerTypeData?.type] : [];
 
   return (
     <Autocomplete

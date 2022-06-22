@@ -1,146 +1,3603 @@
 {
   "types": [
     {
-      "code": "372137005",
-      "display": "Primary malignant neoplasm of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "254938000",
+      "display": "Astrocytoma of brain (disorder)"
     },
     {
-      "code": "826978004",
-      "display": "Solid ductal carcinoma in situ of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "763865009",
+      "display": "Pilocytic astrocytoma (disorder)"
     },
     {
-      "code": "278050001",
-      "display": "Sarcoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1157070004",
+      "display": "Pilomyxoid astrocytoma (disorder)"
     },
     {
-      "code": "713609000",
-      "display": "Invasive carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "99131000119108",
+      "display": "Astrocytoma of cerebrum (disorder)"
     },
     {
-      "code": "763479005",
-      "display": "Metaplastic carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1157060001",
+      "display": "Diffuse astrocytoma of brain (disorder)"
     },
     {
-      "code": "109888004",
-      "display": "Lobular carcinoma in situ of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "100731000119107",
+      "display": "Low grade astrocytoma of brain (disorder)"
     },
     {
-      "code": "254840009",
-      "display": "Inflammatory carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "100721000119109",
+      "display": "High grade astrocytoma of brain (disorder)"
     },
     {
-      "code": "254844000",
-      "display": "Malignant phyllodes tumor of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "277461004",
+      "display": "Anaplastic astrocytoma of brain (disorder)"
     },
     {
-      "code": "8145008",
-      "display": "Mixed tumor, malignant (morphologic abnormality)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156417006",
+      "display": "Fibrillary astrocytoma of brain (disorder)"
     },
     {
-      "code": "403946000",
-      "display": "Paget's disease of nipple (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156456000",
+      "display": "Pilomyxoid astrocytoma of brain (disorder)"
     },
     {
-      "code": "254845004",
-      "display": "Fibroadenoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156415003",
+      "display": "Protoplasmic astrocytoma of brain (disorder)"
     },
     {
-      "code": "87737001",
-      "display": "Signet ring cell carcinoma (morphologic abnormality)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156416002",
+      "display": "Gemistocytic astrocytoma of brain (disorder)"
     },
     {
-      "code": "408643008",
-      "display": "Infiltrating duct carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682451000119107",
+      "display": "Primary astrocytoma of frontal lobe (disorder)"
     },
     {
-      "code": "278054005",
-      "display": "Lobular carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "277507004",
+      "display": "Pilocytic astrocytoma of cerebellum (disorder)"
     },
     {
-      "code": "444712000",
-      "display": "Mucinous carcinoma of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682481000119100",
+      "display": "Primary astrocytoma of temporal lobe (disorder)"
     },
     {
-      "code": "722523004",
-      "display": "Mixed ductal and lobular carcinoma in situ of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682471000119103",
+      "display": "Primary astrocytoma of parietal lobe (disorder)"
     },
     {
-      "code": "721596003",
-      "display": "Solid papillary carcinoma in situ of breast (disorder)"
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1196844004",
+      "display": "Primary malignant astrocytoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682221000119103",
+      "display": "Primary anaplastic astrocytoma of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682231000119100",
+      "display": "Primary anaplastic astrocytoma of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682251000119106",
+      "display": "Primary anaplastic astrocytoma of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "82501000119102",
+      "display": "Anaplastic astrocytoma of central nervous system (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682241000119109",
+      "display": "Primary anaplastic astrocytoma of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#93727008",
+      "display": "Primary malignant neoplasm of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#428061005",
+      "display": "Malignant neoplasm of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#254938000",
+      "display": " Astrocytoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#443936004",
+      "display": "Oligodendroglioma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#254940005",
+      "display": "Oligodendroglioma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#276828006",
+      "display": "Glioblastoma multiforme of brain"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#443333004",
+      "display": "   Medulloblastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#1157071000",
+      "display": "   Anaplastic ganglioglioma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#404037002",
+      "display": "Malignant peripheral nerve sheath tumor (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "687331000119109",
+      "display": "Primary oligodendroglioma of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "687361000119101",
+      "display": "Primary oligodendroglioma of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156406005",
+      "display": "Anaplastic oligodendroglioma of central nervous system (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "716647001",
+      "display": "Mixed oligoastrocytoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156414004",
+      "display": "Giant cell glioblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684901000119107",
+      "display": "Primary glioblastoma multiforme of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "16845341000119100",
+      "display": "Primary glioblastoma multiforme of brainstem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "16845301000119100",
+      "display": "Primary glioblastoma multiforme of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684911000119105",
+      "display": "Primary glioblastoma multiforme of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684931000119100",
+      "display": "Primary glioblastoma multiforme of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684941000119109",
+      "display": "Primary glioblastoma multiforme of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684921000119103",
+      "display": "Primary glioblastoma multiforme of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "687351000119103",
+      "display": "Primary oligodendroglioma of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "686461000119108",
+      "display": "Primary malignant glioma of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "686451000119106",
+      "display": "Primary malignant glioma of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "686441000119109",
+      "display": "Primary malignant glioma of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "686431000119100",
+      "display": "Primary malignant glioma of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "683791000119100",
+      "display": "Primary ependymoma of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "683761000119107",
+      "display": "Primary ependymoma of brain ventricle (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "682261000119108",
+      "display": "Primary anaplastic astrocytoma of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "107581000119103",
+      "display": "Astrocytoma of brain stem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "104981000119104",
+      "display": "Oligodendroglioma of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "96981000119102",
+      "display": "Malignant neoplasm of rectosigmoid junction metastatic to brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "90831000119105",
+      "display": "Grade 4 malignant glioma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "90811000119100",
+      "display": "Low grade malignant glioma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "87121000119102",
+      "display": "Malignant glioma of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "87111000119109",
+      "display": "Malignant glioma of hypothalamus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "87091000119101",
+      "display": "Malignant glioma of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "11471000224106",
+      "display": "Diffuse intrinsic pontine glioma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1197343006",
+      "display": "Primary teratoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1197332003",
+      "display": "Primary malignant melanoma of central nervous system (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1197298003",
+      "display": "Primary malignant germ cell neoplasm of pineal gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1196898000",
+      "display": "Primary malignant atypical teratoid rhabdoid neoplasm of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1196860000",
+      "display": "Primary anaplastic large cell medulloblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1196839006",
+      "display": "Primary embryonal carcinoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1179377000",
+      "display": "Adenocarcinoma of pituitary gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156472008",
+      "display": "Papillary tumor of pineal region (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156471001",
+      "display": "Choroid plexus carcinoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156469001",
+      "display": "Large cell medulloblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156461003",
+      "display": "Gliosarcoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156460002",
+      "display": "Desmoplastic nodular medulloblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156455001",
+      "display": "Pleomorphic xanthoastrocytoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156413005",
+      "display": "Gliomatosis cerebri (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "816205008",
+      "display": "Malignant pituitary blastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "767448007",
+      "display": "Pineoblastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "762457009",
+      "display": "Astroblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "735757008",
+      "display": "Primary ganglioneuroblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "715904005",
+      "display": "Pineal parenchymal tumor of intermediate differentiation (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "713325002",
+      "display": "Primary cerebral lymphoma co-occurrent with human immunodeficiency virus infection (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "699704002",
+      "display": "Classic medulloblastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "699318007",
+      "display": "Supratentorial primitive neuroectodermal tumor (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "449420002",
+      "display": "Malignant neoplasm of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "449253005",
+      "display": "Malignant epithelial neoplasm of hypothalamus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "448989001",
+      "display": "Malignant epithelial neoplasm of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "448863000",
+      "display": "Malignant epithelial neoplasm of pineal gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "448250003",
+      "display": "Malignant teratoma of pineal region (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "448248006",
+      "display": "Malignant neoplasm of axial suprasellar region of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "448218008",
+      "display": "Malignant neoplasm of cerebellopontine angle (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "443333004",
+      "display": "Medulloblastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "429033009",
+      "display": "Malignant neoplasm of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93928006",
+      "display": "Primary malignant neoplasm of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93807001",
+      "display": "Primary malignant neoplasm of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93768004",
+      "display": "Primary malignant neoplasm of craniopharyngeal duct (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93749002",
+      "display": "Primary malignant neoplasm of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93748005",
+      "display": "Primary malignant neoplasm of cerebral ventricle (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93746009",
+      "display": "Primary malignant neoplasm of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93726004",
+      "display": "Primary malignant neoplasm of brain stem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "424276002",
+      "display": "Malignant glioma of brainstem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "424151006",
+      "display": "Anaplastic glioma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363483004",
+      "display": "Malignant tumor of pineal gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363482009",
+      "display": "Malignant tumor of pituitary gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363473003",
+      "display": "Malignant neoplasm of brainstem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363471001",
+      "display": "Malignant neoplasm of cerebral ventricles (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363470000",
+      "display": "Malignant neoplasm of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363469001",
+      "display": "Malignant neoplasm of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363468009",
+      "display": "Malignant neoplasm of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "363467004",
+      "display": "Malignant neoplasm of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "281560004",
+      "display": "Neuroblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "277505007",
+      "display": "Medulloblastoma of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "276836002",
+      "display": "Primary cerebral lymphoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "276828006",
+      "display": "Glioblastoma multiforme of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "276826005",
+      "display": "Malignant glioma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "255112006",
+      "display": "Malignant tumor of pituitary and hypothalamus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "254969001",
+      "display": "Malignant tumor of olfactory tract (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "254955001",
+      "display": "Pituitary carcinoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188340000",
+      "display": "Malignant tumor of craniopharyngeal duct (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188339002",
+      "display": "Malignant neoplasm of pituitary gland and craniopharyngeal duct (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188308004",
+      "display": "Malignant neoplasm of olfactory bulb (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188302003",
+      "display": "Malignant neoplasm of tapetum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188301005",
+      "display": "Malignant neoplasm of corpus callosum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188298006",
+      "display": "Malignant neoplasm of pons (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188297001",
+      "display": "Malignant neoplasm of midbrain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188296005",
+      "display": "Malignant neoplasm of medulla oblongata (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188295009",
+      "display": "Malignant neoplasm of cerebral peduncle (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188293002",
+      "display": "Malignant neoplasm of floor of cerebral ventricle (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188292007",
+      "display": "Malignant tumor of choroid plexus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188290004",
+      "display": "Malignant neoplasm of uncus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188289008",
+      "display": "Malignant neoplasm of hippocampus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188287005",
+      "display": "Malignant neoplasm of thalamus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188286001",
+      "display": "Malignant tumor of hypothalamus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188285002",
+      "display": "Malignant neoplasm of globus pallidus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188283009",
+      "display": "Malignant neoplasm of corpus striatum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188282004",
+      "display": "Malignant neoplasm of cerebral cortex (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188281006",
+      "display": "Malignant neoplasm of basal ganglia (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "188280007",
+      "display": "Malignant neoplasm of cerebrum (excluding lobes and ventricles) (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "109912006",
+      "display": "Overlapping malignant neoplasm of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "94086000",
+      "display": "Primary malignant neoplasm of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93964007",
+      "display": "Primary malignant neoplasm of pituitary gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93962006",
+      "display": "Primary malignant neoplasm of pineal gland (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "93946000",
+      "display": "Primary malignant neoplasm of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "100731000119107",
+      "display": "Low grade astrocytoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1157041008",
+      "display": "Astrocytoma low grade (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "100721000119109",
+      "display": "High grade astrocytoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "SCT#276828006",
+      "display": "Glioblastoma multiforme of brain"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1156414004",
+      "display": "Giant cell glioblastoma of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684901000119107",
+      "display": "Primary glioblastoma multiforme of cerebrum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "16845341000119100",
+      "display": "Primary glioblastoma multiforme of brainstem (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "16845301000119100",
+      "display": "Primary glioblastoma multiforme of cerebellum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684911000119105",
+      "display": "Primary glioblastoma multiforme of frontal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684931000119100",
+      "display": "Primary glioblastoma multiforme of parietal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684941000119109",
+      "display": "Primary glioblastoma multiforme of temporal lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "684921000119103",
+      "display": "Primary glioblastoma multiforme of occipital lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "147131000119101",
+      "display": "Glioblastoma multiforme of central nervous system (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1157062009",
+      "display": "Giant cell glioblastoma of central nervous system (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "393563007",
+      "display": "Glioblastoma multiforme (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "276829003",
+      "display": "Glioblastoma multiforme of spinal cord (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "276828006",
+      "display": "Glioblastoma multiforme of brain (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "1163375002",
+      "display": "Glioblastoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "44529004",
+      "display": "Giant cell glioblastoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "384992008",
+      "display": "Small cell glioblastoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "733837004",
+      "display": "Epithelioid glioblastoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "35262004",
+      "display": "Gliosarcoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "733889009",
+      "display": "Glioblastoma isocitrate dehydrogenase wildtype (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "733888001",
+      "display": "Glioblastoma isocitrate dehydrogenase 1 mutation (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "brain",
+      "code": "189923008",
+      "display": "Monstrocellular sarcoma (morphologic abnormality)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363406005",
+      "display": "Malignant neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363410008",
+      "display": "Malignant tumor of sigmoid colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363412000",
+      "display": "Malignant tumor of ascending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363408006",
+      "display": "Malignant tumor of transverse colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363409003",
+      "display": "Malignant tumor of descending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363414004",
+      "display": "Malignant tumor of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363407001",
+      "display": "Malignant tumor of hepatic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363413005",
+      "display": "Malignant tumor of splenic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#315058005",
+      "display": "Hereditary nonpolyposis colon cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#109838007",
+      "display": "Overlapping malignant neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#93761005",
+      "display": "Primary malignant neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#94006002",
+      "display": "Primary malignant neoplasm of sigmoid colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#93683002",
+      "display": "Primary malignant neoplasm of ascending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#93771007",
+      "display": "Primary malignant neoplasm of descending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#94105000",
+      "display": "Primary malignant neoplasm of transverse colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#1197354001",
+      "display": "Primary malignant mesenchymal neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#721698005",
+      "display": "Primary malignant neuroendocrine neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#93826009",
+      "display": "Primary malignant neoplasm of hepatic flexure of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#94072004",
+      "display": "Primary malignant neoplasm of splenic flexure of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#1163568002",
+      "display": "Primary malignant neoplasm of overlapping sites of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#16636051000119105",
+      "display": "Primary malignant gastrointestinal stromal neoplasm of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "6.81651E+14",
+      "display": "Primary adenocarcinoma of descending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "6.81601E+14",
+      "display": "Primary adenocarcinoma of ascending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1.84881E+14",
+      "display": "Primary adenocarcinoma of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "9.6281E+13",
+      "display": "Overlapping malignant neoplasm of colon and rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1.701E+12",
+      "display": "Primary adenocarcinoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1197359006",
+      "display": "Familial colorectal cancer type X (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1156795003",
+      "display": "Kaposi sarcoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1156788007",
+      "display": "Leiomyosarcoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "781382000",
+      "display": "Malignant neoplasm of colon and/or rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "766981007",
+      "display": "Squamous cell carcinoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "737058005",
+      "display": "Microsatellite instability-high colorectal cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "726654006",
+      "display": "Malignant carcinoid tumor of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721699002",
+      "display": "Primary adenocarcinoma of descending colon and splenic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721697000",
+      "display": "Primary neuroendocrine carcinoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721696009",
+      "display": "Primary adenocarcinoma of transverse colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721695008",
+      "display": "Primary adenocarcinoma of ascending colon and right flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "425178004",
+      "display": "Adenocarcinoma of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "314965007",
+      "display": "Local recurrence of malignant tumor of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312115000",
+      "display": "Carcinoma of splenic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312114001",
+      "display": "Carcinoma of hepatic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312113007",
+      "display": "Carcinoma of descending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312112002",
+      "display": "Carcinoma of transverse colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312111009",
+      "display": "Carcinoma of ascending colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "301756000",
+      "display": "Adenocarcinoma of sigmoid colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "285611007",
+      "display": "Metastasis to colon of unknown primary (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "285312008",
+      "display": "Carcinoma of sigmoid colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "269544008",
+      "display": "Carcinoma of the rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "269533000",
+      "display": "Carcinoma of colon (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#363351006",
+      "display": "Malignant tumor of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#781382000",
+      "display": "Malignant neoplasm of colon and/or rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#737058005",
+      "display": "Microsatellite instability-high colorectal cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#1197359006",
+      "display": "Familial colorectal cancer type X (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "16636101000119100",
+      "display": "Primary malignant gastrointestinal stromal neoplasm of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "184881000119106",
+      "display": "Primary adenocarcinoma of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1197355000",
+      "display": "Primary malignant mesenchymal neoplasm of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1156797006",
+      "display": "Kaposi sarcoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "1156783003",
+      "display": "Leiomyosarcoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "448994001",
+      "display": "Malignant epithelial neoplasm of upper rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "766979005",
+      "display": "Squamous cell carcinoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721701002",
+      "display": "Primary neuroendocrine carcinoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "721700001",
+      "display": "Primary malignant neuroendocrine neoplasm of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "96281000119107",
+      "display": "Overlapping malignant neoplasm of colon and rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "425178004",
+      "display": "Adenocarcinoma of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369461007",
+      "display": "Malignant tumor involving rectum by separate metastasis from vagina (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369460008",
+      "display": "Malignant tumor involving rectum by separate metastasis from uterus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369459003",
+      "display": "Malignant tumor involving rectum by separate metastasis from uterine cervix (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369458006",
+      "display": "Malignant tumor involving rectum by separate metastasis from prostate (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369457001",
+      "display": "Malignant tumor involving rectum by separate metastasis from ovary (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369456005",
+      "display": "Malignant tumor involving rectum by separate metastasis from fallopian tube (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369455009",
+      "display": "Malignant tumor involving rectum by separate metastasis from endometrium (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369454008",
+      "display": "Malignant tumor involving rectum by direct extension from vagina (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369453002",
+      "display": "Malignant tumor involving rectum by direct extension from uterus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369452007",
+      "display": "Malignant tumor involving rectum by direct extension from uterine cervix (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369451000",
+      "display": "Malignant tumor involving rectum by direct extension from prostate (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369450004",
+      "display": "Malignant tumor involving rectum by direct extension from ovary (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369449004",
+      "display": "Malignant tumor involving rectum by direct extension from fallopian tube (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "369448007",
+      "display": "Malignant tumor involving rectum by direct extension from endometrium (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "363414004",
+      "display": "Malignant tumor of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "363413005",
+      "display": "Malignant tumor of splenic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "363407001",
+      "display": "Malignant tumor of hepatic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "187760008",
+      "display": "Malignant neoplasm of rectum, rectosigmoid junction and anus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "109839004",
+      "display": "Overlapping malignant neoplasm of rectum, anus and anal canal (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "93984006",
+      "display": "Primary malignant neoplasm of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "93980002",
+      "display": "Primary malignant neoplasm of rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "314966008",
+      "display": "Local recurrence of malignant tumor of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312115000",
+      "display": "Carcinoma of splenic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "312114001",
+      "display": "Carcinoma of hepatic flexure (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "285612000",
+      "display": "Metastasis to rectum of unknown primary (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "276822007",
+      "display": "Malignant melanoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "269544008",
+      "display": "Carcinoma of the rectosigmoid junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "254586002",
+      "display": "Malignant tumor of anorectal junction (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "254582000",
+      "display": "Adenocarcinoma of rectum (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#315058005",
+      "display": "Hereditary nonpolyposis colon cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#1197359006",
+      "display": "Familial colorectal cancer type X (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#315058005",
+      "display": "Hereditary nonpolyposis colon cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#715866009",
+      "display": "Attenuated familial adenomatous polyposis (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#716318002",
+      "display": "Lynch syndrome (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "colon",
+      "code": "SCT#315058005",
+      "display": "Hereditary nonpolyposis colon cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#93880001",
+      "display": "Primary malignant neoplasm of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#363358000",
+      "display": "Malignant tumor of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#424132000",
+      "display": "Non-small cell carcinoma of lung, TNM stage 1 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527641000119107",
+      "display": "Primary non-small cell carcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#425048006",
+      "display": "Non-small cell carcinoma of lung, TNM stage 2 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#422968005",
+      "display": "Non-small cell carcinoma of lung, TNM stage 3 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#423121009",
+      "display": "Non-small cell carcinoma of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527601000119105",
+      "display": "Primary non-small cell carcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1141627001",
+      "display": "Non-small cell lung carcinoma with neuregulin 1 gene fusion (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527521000119100",
+      "display": "Primary non-small cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527441000119105",
+      "display": "Primary non-small cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527561000119105",
+      "display": "Primary non-small cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527721000119108",
+      "display": "Primary non-small cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#16527481000119100",
+      "display": "Primary non-small cell carcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254626006",
+      "display": "Adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15956341000119105",
+      "display": "Adenocarcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15956381000119100",
+      "display": "Adenocarcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707451005",
+      "display": "Primary adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707452003",
+      "display": "Primary mucinous adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707411007",
+      "display": "Primary papillary adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#711414003",
+      "display": "Primary clear cell adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#789695003",
+      "display": "Non-mucinous adenocarcinoma in situ of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1078881000119102",
+      "display": "Primary adenocarcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1078901000119100",
+      "display": "Primary adenocarcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1078931000119107",
+      "display": "Primary adenocarcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1078961000119104",
+      "display": "Primary adenocarcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1078951000119101",
+      "display": "Primary adenocarcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254634000",
+      "display": "Squamous cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#12240951000119107",
+      "display": "Squamous cell carcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#12240991000119102",
+      "display": "Squamous cell carcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707454002",
+      "display": "Primary basaloid squamous cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707455001",
+      "display": "Primary papillary squamous cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#707453008",
+      "display": "Primary clear cell squamous cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#425376008",
+      "display": "Squamous cell carcinoma of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#425230006",
+      "display": "Squamous cell carcinoma of lung, TNM stage 3 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#423295000",
+      "display": "Squamous cell carcinoma of lung, TNM stage 1 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#423468007",
+      "display": "Squamous cell carcinoma of lung, TNM stage 2 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1082141000119108",
+      "display": "Primary squamous cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1082111000119109",
+      "display": "Primary squamous cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1082231000119109",
+      "display": "Primary squamous cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1082271000119107",
+      "display": "Primary squamous cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1082251000119103",
+      "display": "Primary squamous cell carcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254629004",
+      "display": "Large cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "424938000",
+      "display": "Large cell carcinoma of lung, TNM stage 1 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "423050000",
+      "display": "Large cell carcinoma of lung, TNM stage 2 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "424970000",
+      "display": "Large cell carcinoma of lung, TNM stage 3 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "423600008",
+      "display": "Large cell carcinoma of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1080471000119100",
+      "display": "Primary large cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1080451000119100",
+      "display": "Primary large cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1080531000119100",
+      "display": "Primary large cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1080501000119100",
+      "display": "Primary large cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707405009",
+      "display": "Primary adenosquamous carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707460002",
+      "display": "Primary pseudosarcomatous carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "15957261000119100",
+      "display": "Kaposi sarcoma of bilateral lungs (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "15955941000119100",
+      "display": "Primary small cell carcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "15955901000119100",
+      "display": "Primary small cell carcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1081921000119100",
+      "display": "Primary small cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1081911000119100",
+      "display": "Primary small cell carcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1081891000119100",
+      "display": "Primary small cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1081861000119100",
+      "display": "Primary small cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1081841000119100",
+      "display": "Primary small cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "683991000119103",
+      "display": "Extensive stage primary small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "354461000119102",
+      "display": "Kaposi sarcoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "354391000119100",
+      "display": "Kaposi sarcoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67841000119103",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67831000119107",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 3 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67821000119109",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 2 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67811000119102",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 1 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1179762006",
+      "display": "Malignant neoplasm of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "890534002",
+      "display": "Primary malignant neoplasm of bilateral lungs (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "890529001",
+      "display": "Primary malignant neoplasm of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "890528009",
+      "display": "Primary malignant neoplasm of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "830151004",
+      "display": "Anaplastic lymphoma kinase fusion oncogene positive non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "830060005",
+      "display": "Reactive oxygen species 1 negative non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "830055006",
+      "display": "Anaplastic lymphoma kinase fusion oncogene negative non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "822969007",
+      "display": "Acinar cell cystadenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "724060008",
+      "display": "Malignant neoplasm of right upper lobe of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "724059003",
+      "display": "Malignant neoplasm of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "724058006",
+      "display": "Malignant neoplasm of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "724056005",
+      "display": "Malignant neoplasm of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "723301009",
+      "display": "Squamous non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "722528008",
+      "display": "Primary malignant neuroendocrine neoplasm of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "722425009",
+      "display": "Reactive oxygen species 1 positive non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707673006",
+      "display": "Pleuropulmonary blastoma type III (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707672001",
+      "display": "Pleuropulmonary blastoma type II (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707671008",
+      "display": "Pleuropulmonary blastoma type I (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707670009",
+      "display": "Pleuropulmonary blastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707596000",
+      "display": "Primary carcinosarcoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707595001",
+      "display": "Primary mucinous cystadenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707470000",
+      "display": "Primary mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707469001",
+      "display": "Primary non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707468009",
+      "display": "Primary mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707467004",
+      "display": "Primary salivary gland type carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707466008",
+      "display": "Primary adenoid cystic carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707465007",
+      "display": "Primary mucoepidermoid carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707464006",
+      "display": "Primary myoepithelial carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707458004",
+      "display": "Primary pleomorphic carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707457009",
+      "display": "Primary spindle cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707456000",
+      "display": "Primary undifferentiated carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707410008",
+      "display": "Primary solid carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707409003",
+      "display": "Primary acinar cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707408006",
+      "display": "Primary small cell non-keratinizing squamous cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707407001",
+      "display": "Primary signet ring cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707404008",
+      "display": "Primary mixed subtype adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "707403002",
+      "display": "Primary fetal adenocarcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "703230006",
+      "display": "Non-small cell lung cancer without mutation in epidermal growth factor receptor (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "703228009",
+      "display": "Non-small cell lung cancer with mutation in epidermal growth factor receptor (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "448993007",
+      "display": "Malignant epithelial neoplasm of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "448867004",
+      "display": "Diffuse non-Hodgkin's lymphoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "448672006",
+      "display": "Follicular non-Hodgkin's lymphoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "448372003",
+      "display": "Non-Hodgkin's lymphoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "440173001",
+      "display": "Nonsquamous nonsmall cell neoplasm of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "427038005",
+      "display": "Non-small cell lung cancer, negative for epidermal growth factor receptor expression (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "426964009",
+      "display": "Non-small cell lung cancer, positive for epidermal growth factor receptor expression (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "372111007",
+      "display": "Carcinoma of lower lobe, bronchus or lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "372110008",
+      "display": "Primary malignant neoplasm of lower lobe, bronchus or lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "314954002",
+      "display": "Local recurrence of malignant tumor of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "313357008",
+      "display": "Squamous cell carcinoma of bronchus in right upper lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "313356004",
+      "display": "Squamous cell carcinoma of bronchus in right middle lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "313355000",
+      "display": "Squamous cell carcinoma of bronchus in right lower lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "313354001",
+      "display": "Squamous cell carcinoma of bronchus in left upper lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "313353007",
+      "display": "Squamous cell carcinoma of bronchus in left lower lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "269464000",
+      "display": "Malignant neoplasm of upper lobe, bronchus or lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254638002",
+      "display": "Pancoast tumor (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254637007",
+      "display": "Non-small cell lung cancer (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254635004",
+      "display": "Epithelioid hemangioendothelioma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254633006",
+      "display": "Oat cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254632001",
+      "display": "Small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254631008",
+      "display": "Giant cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254625005",
+      "display": "Malignant tumor of lung parenchyma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "233940007",
+      "display": "Pulmonary tumor embolism (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "189815007",
+      "display": "Pulmonary blastoma (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "187870002",
+      "display": "Malignant neoplasm of lower lobe of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "187865009",
+      "display": "Malignant neoplasm of middle lobe bronchus (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "187862007",
+      "display": "Malignant neoplasm of upper lobe of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "109390005",
+      "display": "Kaposi's sarcoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "109371002",
+      "display": "Overlapping malignant neoplasm of bronchus and lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93993007",
+      "display": "Primary malignant neoplasm of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93992002",
+      "display": "Primary malignant neoplasm of right middle lobe of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93991009",
+      "display": "Primary malignant neoplasm of right lower lobe of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93865007",
+      "display": "Primary malignant neoplasm of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93864006",
+      "display": "Primary malignant neoplasm of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93827000",
+      "display": "Primary malignant neoplasm of hilus of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93733004",
+      "display": "Primary malignant neoplasm of bronchus of right upper lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93732009",
+      "display": "Primary malignant neoplasm of bronchus of right middle lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93731002",
+      "display": "Primary malignant neoplasm of bronchus of right lower lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93730001",
+      "display": "Primary malignant neoplasm of bronchus of left upper lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "93729006",
+      "display": "Primary malignant neoplasm of bronchus of left lower lobe (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "25050002",
+      "display": "Alpha heavy chain disease, respiratory form (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254632001",
+      "display": " Small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15955941000119102",
+      "display": "Primary small cell carcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15955901000119104",
+      "display": "Primary small cell carcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081861000119105",
+      "display": "Primary small cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081841000119106",
+      "display": "Primary small cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081891000119103",
+      "display": "Primary small cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081921000119108",
+      "display": "Primary small cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081911000119101",
+      "display": "Primary small cell carcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67831000119107",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 3 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67821000119109",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 2 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67811000119102",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 1 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254633006",
+      "display": "Oat cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254632001",
+      "display": " Small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15955941000119102",
+      "display": "Primary small cell carcinoma of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#15955901000119104",
+      "display": "Primary small cell carcinoma of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081861000119105",
+      "display": "Primary small cell carcinoma of upper lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081841000119106",
+      "display": "Primary small cell carcinoma of lower lobe of left lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081891000119103",
+      "display": "Primary small cell carcinoma of lower lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081921000119108",
+      "display": "Primary small cell carcinoma of upper lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#1081911000119101",
+      "display": "Primary small cell carcinoma of middle lobe of right lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67841000119103",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "254633006",
+      "display": "Oat cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "683991000119103",
+      "display": "Extensive stage primary small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#683991000119103",
+      "display": "Extensive stage primary small cell carcinoma of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "67841000119103",
+      "display": "Primary small cell malignant neoplasm of lung, TNM stage 4 (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "SCT#254627002",
+      "display": "Carcinoid tumor of lung (disorder)"
+    },
+    {
+      "entryType": "CancerType",
+      "type": "lung",
+      "code": "1157139005",
+      "display": "Malignant carcinoid tumor (morphologic abnormality)"
     }
   ],
-  "subtypes": [
-    {
-      "code": "43369006",
-      "display": "Basal cell carcinoma, fibroepithelial (morphologic abnormality)"
-    },
-    {
-      "code": "2424003",
-      "display": "Sarcoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality)"
-    },
-    {
-      "code": "82711006",
-      "display": "Infiltrating duct carcinoma (morphologic abnormality)"
-    },
-    {
-      "code": "703644009",
-      "display": "Adenomyoepithelioma with carcinoma (morphologic abnormality)"
-    },
-    {
-      "code": "77284006",
-      "display": "Lobular carcinoma in situ (morphologic abnormality)"
-    },
-    {
-      "code": "254840009",
-      "display": "Inflammatory carcinoma of breast (disorder)"
-    },
-    {
-      "code": "41919003",
-      "display": "Juvenile carcinoma of the breast (morphologic abnormality)"
-    },
-    {
-      "code": "87913009",
-      "display": "Malignant phyllodes tumor (morphologic abnormality)"
-    },
-    {
-      "code": "68453008",
-      "display": "Carcinoma, no subtype (morphologic abnormality)"
-    },
-    {
-      "code": "2985005",
-      "display": "Paget's disease, mammary (morphologic abnormality)"
-    },
-    {
-      "code": "863926008",
-      "display": "Angiosarcoma (morphologic abnormality)"
-    },
-    {
-      "code": "11671000",
-      "display": "Adenoid cystic carcinoma (morphologic abnormality)"
-    },
-    {
-      "code": "63264007",
-      "display": "Carcinosarcoma (morphologic abnormality)"
-    },
-    {
-      "code": "89740008",
-      "display": "Lobular carcinoma (morphologic abnormality)"
-    },
-    {
-      "code": "444057000",
-      "display": "Infiltrating carcinoma with ductal and lobular features (morphologic abnormality)"
-    },
-    {
-      "code": "68358000",
-      "display": "Adenocarcinoma with spindle cell metaplasia (morphologic abnormality)"
-    },
-    {
-      "code": "59367005",
-      "display": "Adenosquamous carcinoma (morphologic abnormality)"
-    },
-    {
-      "code": "28899001",
-      "display": "Squamous cell carcinoma, no International Classification of Diseases for Oncology subtype (morphologic abnormality)"
-    }
-  ]
+  "subtypes": {
+    "lung": [
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254626006",
+        "display": "Adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956341000119105",
+        "display": "Adenocarcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956381000119100",
+        "display": "Adenocarcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707451005",
+        "display": "Primary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707452003",
+        "display": "Primary mucinous adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707411007",
+        "display": "Primary papillary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#711414003",
+        "display": "Primary clear cell adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#789695003",
+        "display": "Non-mucinous adenocarcinoma in situ of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078881000119102",
+        "display": "Primary adenocarcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078901000119100",
+        "display": "Primary adenocarcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078931000119107",
+        "display": "Primary adenocarcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078961000119104",
+        "display": "Primary adenocarcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078951000119101",
+        "display": "Primary adenocarcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707595001",
+        "display": "Primary mucinous cystadenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707470000",
+        "display": "Primary mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707469001",
+        "display": "Primary non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707468009",
+        "display": "Primary mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707467004",
+        "display": "Primary salivary gland type carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707466008",
+        "display": "Primary adenoid cystic carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707465007",
+        "display": "Primary mucoepidermoid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707464006",
+        "display": "Primary myoepithelial carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707410008",
+        "display": "Primary solid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707404008",
+        "display": "Primary mixed subtype adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707403002",
+        "display": "Primary fetal adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1187332001",
+        "display": "Adenocarcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254634000",
+        "display": "Squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240951000119107",
+        "display": "Squamous cell carcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240991000119102",
+        "display": "Squamous cell carcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707454002",
+        "display": "Primary basaloid squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707455001",
+        "display": "Primary papillary squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707453008",
+        "display": "Primary clear cell squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425376008",
+        "display": "Squamous cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425230006",
+        "display": "Squamous cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423295000",
+        "display": "Squamous cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423468007",
+        "display": "Squamous cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082141000119108",
+        "display": "Primary squamous cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082111000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082231000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082271000119107",
+        "display": "Primary squamous cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082251000119103",
+        "display": "Primary squamous cell carcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707408006",
+        "display": "Primary small cell non-keratinizing squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313357008",
+        "display": "Squamous cell carcinoma of bronchus in right upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313356004",
+        "display": "Squamous cell carcinoma of bronchus in right middle lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313355000",
+        "display": "Squamous cell carcinoma of bronchus in right lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313354001",
+        "display": "Squamous cell carcinoma of bronchus in left upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313353007",
+        "display": "Squamous cell carcinoma of bronchus in left lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1187092008",
+        "display": "Malignant keratoacanthoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254629004",
+        "display": "Large cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424938000",
+        "display": "Large cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423050000",
+        "display": "Large cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424970000",
+        "display": "Large cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423600008",
+        "display": "Large cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080471000119100",
+        "display": "Primary large cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080451000119100",
+        "display": "Primary large cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080531000119100",
+        "display": "Primary large cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080501000119100",
+        "display": "Primary large cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "254631008",
+        "display": "Giant cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "22687000",
+        "display": "Large cell carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "722528008",
+        "display": "Primary malignant neuroendocrine neoplasm of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707460002",
+        "display": "Primary pseudosarcomatous carcinoma of lung (disorder)"
+      }
+    ],
+    "brain": [
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254626006",
+        "display": "Adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956341000119105",
+        "display": "Adenocarcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956381000119100",
+        "display": "Adenocarcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707451005",
+        "display": "Primary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707452003",
+        "display": "Primary mucinous adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707411007",
+        "display": "Primary papillary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#711414003",
+        "display": "Primary clear cell adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#789695003",
+        "display": "Non-mucinous adenocarcinoma in situ of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078881000119102",
+        "display": "Primary adenocarcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078901000119100",
+        "display": "Primary adenocarcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078931000119107",
+        "display": "Primary adenocarcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078961000119104",
+        "display": "Primary adenocarcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078951000119101",
+        "display": "Primary adenocarcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707595001",
+        "display": "Primary mucinous cystadenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707470000",
+        "display": "Primary mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707469001",
+        "display": "Primary non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707468009",
+        "display": "Primary mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707467004",
+        "display": "Primary salivary gland type carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707466008",
+        "display": "Primary adenoid cystic carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707465007",
+        "display": "Primary mucoepidermoid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707464006",
+        "display": "Primary myoepithelial carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707410008",
+        "display": "Primary solid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707404008",
+        "display": "Primary mixed subtype adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707403002",
+        "display": "Primary fetal adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1187332001",
+        "display": "Adenocarcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254634000",
+        "display": "Squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240951000119107",
+        "display": "Squamous cell carcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240991000119102",
+        "display": "Squamous cell carcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707454002",
+        "display": "Primary basaloid squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707455001",
+        "display": "Primary papillary squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707453008",
+        "display": "Primary clear cell squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425376008",
+        "display": "Squamous cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425230006",
+        "display": "Squamous cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423295000",
+        "display": "Squamous cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423468007",
+        "display": "Squamous cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082141000119108",
+        "display": "Primary squamous cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082111000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082231000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082271000119107",
+        "display": "Primary squamous cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082251000119103",
+        "display": "Primary squamous cell carcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707408006",
+        "display": "Primary small cell non-keratinizing squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313357008",
+        "display": "Squamous cell carcinoma of bronchus in right upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313356004",
+        "display": "Squamous cell carcinoma of bronchus in right middle lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313355000",
+        "display": "Squamous cell carcinoma of bronchus in right lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313354001",
+        "display": "Squamous cell carcinoma of bronchus in left upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313353007",
+        "display": "Squamous cell carcinoma of bronchus in left lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1187092008",
+        "display": "Malignant keratoacanthoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254629004",
+        "display": "Large cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424938000",
+        "display": "Large cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423050000",
+        "display": "Large cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424970000",
+        "display": "Large cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423600008",
+        "display": "Large cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080471000119100",
+        "display": "Primary large cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080451000119100",
+        "display": "Primary large cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080531000119100",
+        "display": "Primary large cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080501000119100",
+        "display": "Primary large cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "254631008",
+        "display": "Giant cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "22687000",
+        "display": "Large cell carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "722528008",
+        "display": "Primary malignant neuroendocrine neoplasm of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707460002",
+        "display": "Primary pseudosarcomatous carcinoma of lung (disorder)"
+      }
+    ],
+    "colon": [
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254626006",
+        "display": "Adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956341000119105",
+        "display": "Adenocarcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#15956381000119100",
+        "display": "Adenocarcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707451005",
+        "display": "Primary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707452003",
+        "display": "Primary mucinous adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707411007",
+        "display": "Primary papillary adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#711414003",
+        "display": "Primary clear cell adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#789695003",
+        "display": "Non-mucinous adenocarcinoma in situ of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078881000119102",
+        "display": "Primary adenocarcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078901000119100",
+        "display": "Primary adenocarcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078931000119107",
+        "display": "Primary adenocarcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078961000119104",
+        "display": "Primary adenocarcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1078951000119101",
+        "display": "Primary adenocarcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707595001",
+        "display": "Primary mucinous cystadenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707470000",
+        "display": "Primary mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707469001",
+        "display": "Primary non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707468009",
+        "display": "Primary mixed mucinous and non-mucinous bronchiolo-alveolar carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707467004",
+        "display": "Primary salivary gland type carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707466008",
+        "display": "Primary adenoid cystic carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707465007",
+        "display": "Primary mucoepidermoid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707464006",
+        "display": "Primary myoepithelial carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707410008",
+        "display": "Primary solid carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707404008",
+        "display": "Primary mixed subtype adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707403002",
+        "display": "Primary fetal adenocarcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1187332001",
+        "display": "Adenocarcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254634000",
+        "display": "Squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240951000119107",
+        "display": "Squamous cell carcinoma of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#12240991000119102",
+        "display": "Squamous cell carcinoma of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707454002",
+        "display": "Primary basaloid squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707455001",
+        "display": "Primary papillary squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#707453008",
+        "display": "Primary clear cell squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425376008",
+        "display": "Squamous cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#425230006",
+        "display": "Squamous cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423295000",
+        "display": "Squamous cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#423468007",
+        "display": "Squamous cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082141000119108",
+        "display": "Primary squamous cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082111000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082231000119109",
+        "display": "Primary squamous cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082271000119107",
+        "display": "Primary squamous cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#1082251000119103",
+        "display": "Primary squamous cell carcinoma of middle lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707408006",
+        "display": "Primary small cell non-keratinizing squamous cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313357008",
+        "display": "Squamous cell carcinoma of bronchus in right upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313356004",
+        "display": "Squamous cell carcinoma of bronchus in right middle lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313355000",
+        "display": "Squamous cell carcinoma of bronchus in right lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313354001",
+        "display": "Squamous cell carcinoma of bronchus in left upper lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "313353007",
+        "display": "Squamous cell carcinoma of bronchus in left lower lobe (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1187092008",
+        "display": "Malignant keratoacanthoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "SCT#254629004",
+        "display": "Large cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424938000",
+        "display": "Large cell carcinoma of lung, TNM stage 1 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423050000",
+        "display": "Large cell carcinoma of lung, TNM stage 2 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "424970000",
+        "display": "Large cell carcinoma of lung, TNM stage 3 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "423600008",
+        "display": "Large cell carcinoma of lung, TNM stage 4 (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080471000119100",
+        "display": "Primary large cell carcinoma of upper lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080451000119100",
+        "display": "Primary large cell carcinoma of lower lobe of left lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080531000119100",
+        "display": "Primary large cell carcinoma of upper lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "1080501000119100",
+        "display": "Primary large cell carcinoma of lower lobe of right lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "254631008",
+        "display": "Giant cell carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "22687000",
+        "display": "Large cell carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "722528008",
+        "display": "Primary malignant neuroendocrine neoplasm of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "128628002",
+        "display": "Large cell neuroendocrine carcinoma (morphologic abnormality)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707405009",
+        "display": "Primary adenosquamous carcinoma of lung (disorder)"
+      },
+      {
+        "entryType": "CancerSubType",
+        "code": "707460002",
+        "display": "Primary pseudosarcomatous carcinoma of lung (disorder)"
+      }
+    ]
+  }
 }

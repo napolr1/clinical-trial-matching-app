@@ -4,6 +4,7 @@ import { CircularProgress, CssBaseline, Stack, ThemeProvider, Typography } from 
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { Hydrate } from 'react-query/hydration';
 import { ReactQueryDevtools } from 'react-query/devtools';
+import AppContext from '@/AppContext';
 
 import '@fontsource/open-sans/300.css';
 import '@fontsource/open-sans/400.css';
@@ -18,6 +19,7 @@ import type { AppProps } from 'next/app';
 
 const App = ({ Component, pageProps, router }: AppProps): ReactElement => {
   const [loading, setLoading] = useState(false);
+  const [cancerTypeData, setCancerTypeData] = useState(null);
   const handleStart = useCallback(() => setLoading(true), []);
   const handleStop = useCallback(() => setLoading(false), []);
 
@@ -58,7 +60,16 @@ const App = ({ Component, pageProps, router }: AppProps): ReactElement => {
                 </Typography>
               </Stack>
             ) : (
-              <Component {...pageProps} />
+              <AppContext.Provider
+                value={{
+                  state: {
+                    cancerTypeData: cancerTypeData,
+                  },
+                  setCancerTypeData: setCancerTypeData,
+                }}
+              >
+                <Component {...pageProps} />
+              </AppContext.Provider>
             )}
             <ReactQueryDevtools initialIsOpen={false} />
           </ThemeProvider>

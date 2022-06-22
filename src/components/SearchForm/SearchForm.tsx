@@ -4,7 +4,7 @@ import { Search as SearchIcon } from '@mui/icons-material';
 import { Box, Button, Grid, Stack, useMediaQuery, useTheme } from '@mui/material';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import type { ReactElement } from 'react';
+import { ReactElement, useEffect, useContext } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { SearchParameters } from 'types/search-types';
 import {
@@ -24,6 +24,7 @@ import {
 } from './FormFields';
 import MatchingServices from './MatchingServices';
 import { SearchFormValuesType } from './types';
+import AppContext from '@/AppContext';
 
 export type SearchFormProps = {
   defaultValues: Partial<SearchFormValuesType>;
@@ -40,10 +41,18 @@ export const formDataToSearchQuery = (data: SearchFormValuesType): SearchParamet
 });
 
 const SearchForm = ({ defaultValues, fullWidth }: SearchFormProps): ReactElement => {
+  const { setCancerTypeData } = useContext(AppContext);
   const router = useRouter();
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('md'));
-  const { handleSubmit, control } = useForm<SearchFormValuesType>({ defaultValues });
+  const { handleSubmit, control, watch } = useForm<SearchFormValuesType>({ defaultValues });
+
+  const cancerType = watch('cancerType');
+
+  useEffect(() => {
+    setCancerTypeData(cancerType);
+  }, [cancerType]);
+
   const onSubmit = (data: SearchFormValuesType) =>
     router.push({
       pathname: '/results',
